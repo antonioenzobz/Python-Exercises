@@ -1,7 +1,9 @@
+import random
+
 #Variaveis
-pessoa1 = "João"
-pessoa2 = "Maria"
-numero = "78"
+p1 = input("Pessoa 1:" )
+p2 = input("Pessoa 2:" )
+
 
 #Impressão
-print (f"Calculei que {pessoa1} e {pessoa2} são {numero}% almas gêmeas!")
+print (f"Calculei que {p1} e {p2} são {random.randint (0, 100)}% almas gêmeas!")
